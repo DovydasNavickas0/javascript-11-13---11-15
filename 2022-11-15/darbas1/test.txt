@@ -1,0 +1,45 @@
+     if(knygos[pirmas][antras][trecias] == 2018){
+      console.log("Kategorija: " +pirmas);
+      console.log(trecias + " : " +knygos[pirmas][antras][trecias])
+      console.log(knygos[pirmas][antras]);
+    }
+        }
+        if(knygos[pirmas][antras][trecias] <= 100){
+        //console.log(knygos[pirmas][antras][trecias])
+        //console.log(knygos[pirmas][antras][trecias])
+      }
+    }
+
+
+    if(trecias == 2018){
+            //console.log("Kategorija: " +pirmas);
+            //console.log(antras + " : " +knygos[pirmas][antras][trecias])
+            console.log(knygos[pirmas][antras]);
+          }
+        else{
+          //console.log("grab a wrench")
+        }
+
+
+        for (let pirmas in knygos){
+
+  //console.log(knygos[pirmas]);
+
+  for(let antras in knygos[pirmas]){
+
+   //console.log(knygos[pirmas][antras]);
+    
+    for(let trecias in knygos[pirmas][antras]){
+
+     //console.log(knygos[pirmas][antras][trecias]);
+     //console.log(typeof knygos[pirmas][antras][trecias]);
+     //console.log(trecias + " : " +knygos[pirmas][antras][trecias])
+
+     if(knygos[pirmas][antras][trecias] == 2018){
+      //console.log("Kategorija: " +pirmas);
+      //console.log(trecias + " : " +knygos[pirmas][antras][trecias])
+      console.log(knygos[pirmas][antras]);
+    }
+        }
+      }
+    }
